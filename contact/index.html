@@ -1586,7 +1586,7 @@
 								data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}"
 								data-widget_type="heading.default">
 								<div class="elementor-widget-container">
-									<h6 class="elementor-heading-title elementor-size-default">— Send Message</h6>
+									<h6 class="elementor-heading-title elementor-size-default"><span style="color: #fe5e00;">—</span> Send Message</h6>
 								</div>
 							</div>
 							<div class="elementor-element elementor-element-8174c07 de_scroll_animation_no elementor-invisible elementor-widget elementor-widget-heading"
@@ -1688,7 +1688,7 @@
 				className="mf-input "
 				id="mf-input-text-9b90b26"
 				name="mf-first-name"
-				placeholder="${ parent.decodeEntities(`John`) } "
+				placeholder="${ parent.decodeEntities(`First Name`) } "
 									onInput=${parent.handleChange}
 					aria-invalid=${validation.errors['mf-first-name'] ? 'true' : 'false'}
 					ref=${el => parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":true,"expression":"null"}, el)}
@@ -1718,7 +1718,7 @@
 				className="mf-input "
 				id="mf-input-text-12d669f"
 				name="mf-last-name"
-				placeholder="${ parent.decodeEntities(`Doe`) } "
+				placeholder="${ parent.decodeEntities(`Last Name`) } "
 									onInput=${parent.handleChange}
 					aria-invalid=${validation.errors['mf-last-name'] ? 'true' : 'false'}
 					ref=${el => parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":true,"expression":"null"}, el)}
@@ -1747,7 +1747,7 @@
 			
 		<div className="mf-input-wrapper">
 			
-			<input type="email"  defaultValue="" className="mf-input " id="mf-input-email-10b1e60" name="mf-email" placeholder="${ parent.decodeEntities(`johndoe@mail.com`) } "  onInput=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":true,"expression":"null"}, el)}
+			<input type="email"  defaultValue="" className="mf-input " id="mf-input-email-10b1e60" name="mf-email" placeholder="${ parent.decodeEntities(`Email`) } "  onInput=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":true,"expression":"null"}, el)}
 				/>
 
 					<${validation.ErrorMessage} errors=${validation.errors} name="mf-email" as=${html`<span className="mf-error-message"></span>`}

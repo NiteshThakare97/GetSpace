@@ -1247,6 +1247,7 @@ body.rtl .elementor-689 .elementor-element.elementor-element-e31d3fb {
 @media(min-width:768px) {
     .elementor-689 .elementor-element.elementor-element-ba8d370 {
         width: 47%;
+        padding-right: 6px;
     }
 
     .elementor-689 .elementor-element.elementor-element-798caa4 {
@@ -1308,6 +1309,11 @@ body.rtl .elementor-689 .elementor-element.elementor-element-e31d3fb {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    transition: 1s;
+}
+#ourvalues:hover {
+    transform: scale(.90);
+    cursor: pointer;
 }
 #abtmainbanner {
     position: absolute;
@@ -1358,7 +1364,7 @@ body.rtl .elementor-689 .elementor-element.elementor-element-e31d3fb {
         width: 40px;
         padding: 56px 0px 0px 0px;
     }
-    .elementor-689 .elementor-element.elementor-element-508cfb0 .elementor-container {
+    /* .elementor-689 .elementor-element.elementor-element-508cfb0 .elementor-container {
         flex-direction: column-reverse;
-    }
+    } */
 }
